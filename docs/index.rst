@@ -14,7 +14,10 @@ Welcome to the |classbold| lab at F5 Agility |year|
    :caption: Contents:
    :glob:
 
-   intro*
+   index*
    class*/class*
-   examples
-   markdown
+   class*/lab0*
+
+   (this is where order of all labs goes for xontens)
+
+  
