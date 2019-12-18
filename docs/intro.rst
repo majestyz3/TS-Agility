@@ -18,15 +18,16 @@ Lab Topology
 
 The following components have been included in your lab environment:
 
-- 2 x F5 BIG-IP VE (v12.1)
-- 1 x F5 iWorkflow VE (v2.1)
-- 1 x Linux LAMP Webserver (xubuntu 14.04)
+- 1 x F5 BIG-IP VE (v14.1)
+- 1 x F5 BIG-IP VE (v15.0.1)
+- 1 x Elk (Unbuntu 18.04)
+- 1 x Linux LAMP Webserver (Ubuntu 18.04)
 - 1 x Windows Jumphost
 
 Lab Components
 ^^^^^^^^^^^^^^
 
-.. TODO:: Complete lab components table
+.. TODO:: Big-IP verion 15.0.1 is being used for this lab [ADD ALL Components]
 
 The following table lists VLANS, IP Addresses and Credentials for all
 components:
@@ -40,9 +41,10 @@ components:
       - **VLAN/IP Address(es)**
       - **Credentials**
     * - Sample Host
-      - - **Management:** 10.1.1.250
-        - **Internal:** 10.1.10.250
+      - - **Management:** 10.1.1.0/24
+        - **FrontEnd:** 10.1.10.0/24
+        - **BackEnd:** 10.1.20.0/24
         - **External:** 10.1.20.250
-      - ``admin``/``admin``
+      - ``admin``/``AgilityIsFun123!``
 
 

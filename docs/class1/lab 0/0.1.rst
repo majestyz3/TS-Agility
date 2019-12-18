@@ -1,0 +1,19 @@
+Lab – Join UDF Course
+-----------------------------------
+
+.. TODO:: Needs lab description
+
+This lab will add you to the |classname| lab 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Follow these steps to complete this task:
+
+#. Open your web browser
+#. Navigate to https://udf.f5.com/courses
+#. Select Telemetry Streaming Agility 2020 
+#. After logging in you should see the following window:
+
+   |image1|
+
+Once you  have completed the follwoing steps continue onto 0.2

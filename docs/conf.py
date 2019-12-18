@@ -5,7 +5,7 @@
 # ------------
 #
 # REQUIRED: Your class/lab name
-classname = "Telemetry Streaming Agility 2020"
+classname = "Telemetry Streaming"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
 github_repo = "https://github.com/majestyz3/TS-Agility"
