@@ -15,9 +15,9 @@ Welcome to the |classbold| lab at F5 Agility |year|
    :glob:
 
    index*
-   class*/class*
-   class*/lab0*
+   class*/lab*
+    
 
-   (this is where order of all labs goes for xontens)
+ 
 
   

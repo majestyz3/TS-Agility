@@ -17,6 +17,8 @@ In this task you will connect the appropriate power cord.
 
 Follow these steps to complete this task:
 
+
+
 #. Connect one end to the |bip|
 #. Connect the other end to the power source
 
