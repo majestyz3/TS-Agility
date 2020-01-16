@@ -46,11 +46,11 @@ The focus for this exercise is to deploy an application with the appropriate Tel
 
     .. image:: /docs/_static/jsonbody.jpg
 
-**HINT:** Here is what is important in this declaration: 
+    **HINT:** Here is what is important in this declaration: 
 
-   #. The telemetry_local_rule allows traffic through port 6514  
+   * The telemetry_local_rule allows traffic through port 6514  
 
-   #. The telemetry_traffic_log_profile builds a logging profile which specifies the log parameters 
+   * The telemetry_traffic_log_profile builds a logging profile which specifies the log parameters 
 
     .. image:: /docs/_static/as3snippet.jpg
 
