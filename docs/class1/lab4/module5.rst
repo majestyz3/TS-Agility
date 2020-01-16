@@ -1,8 +1,7 @@
 Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools (Part 2)
 -----------------------------------
 
-**ADD DESCRIPTION**
-In this lab we will 
+In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our consumer, AWS CloudWatch, and our BIG-IP. 
 
 ------------------------------------------------ 
 
