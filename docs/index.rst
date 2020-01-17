@@ -9,13 +9,12 @@ Welcome to the |classbold| lab at F5 Agility |year|
 |repoinfo|
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
    :caption: Contents:
    :glob:
-
-   index*
-   class*/lab*
+   
+   */*
     
 
  

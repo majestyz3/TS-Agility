@@ -14,4 +14,4 @@ Expected time to complete: **7 minutes **
    :maxdepth: 1
    :glob:
 
-   module*/module*
+   */*
