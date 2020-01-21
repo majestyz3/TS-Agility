@@ -1,59 +1,60 @@
-Lab 2 – Getting Familiar With Postman 
+Lab 2 – Join UDF Course and Connect To Workstation
 -----------------------------------
 
-In this lab we will setup Postman, an API Development tool that will allow us to structure our API calls and interact with our BIG-IP.
-We will use Postman to query our BIG-IP's status and details of the RPM files needed to use and interact with the AS3 RESTful API.
+Welcome to the Telemetry Streaming course! In this course we will:
 
------------------------------------------------- 
+Explore F5 Telemetry Streaming, by using a declarative API model to forward, aggregate and analyze BIG-IP telemetry.
 
-**Exercise 1 - Setting Up Postman Environment**
-
-
-#. Open Postman
-
------------------------------------------------- 
-
-**Exercise 2 - Check Application Services 3 Extension (AS3) RPM Availability**
-  
-#. Open Postman 
-
-#. Open the the Postman collection `RPMs`
-
-    .. image:: /docs/_static/as3post.jpg
-
-#. Click the `Get AS3 RPM Package` request 
-
-#. Examine the request. Note that we are sending a 'GET' request with an empty body. Send the GET request by clicking the blue 'Send' button.
-
-    .. image:: /docs/_static/send1.jpg
-
-#. You should see a similar response. 
-
-    .. image:: /docs/_static/as3rpm.jpg
-
-**NOTE:** By sending this GET request to 'https://10.1.1.9/mgmt/shared/appsvcs/info' with the correct credentials, the response shows details of the AS3 API available on this BIG-IP. 
-
-**NOTE:** This AS3 RPM package was pre-installed. For instructions, visit the link here: https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/installation.html 
+During this hands-on lab you will learn the following:
+•	The difference between a declarative and imperative API interface. 
+•	How to create and validate a JSON declaration for Telemetry Streaming.
+•	How to use Telemetry Streaming as a part of the F5 Automation Toolchain.
 
 
------------------------------------------------- 
+This lab will go through initial setup and add you to the Telemetry Streaming Agility 2020 workstation.  
 
-**Exercise 3 - Check Telemetry Streaming RPM Availability**
-  
-#. Open the the Postman collection `RPMs`
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Click the `Get TS RPM Package` request 
+Follow these steps to complete this lab:
 
-#. Examine the request. Note that we are sending a 'GET' request with an empty body. Send the GET request by clicking the blue 'Send' button. 
+**Exercise 1 - Setting Up Lab Workstation**
 
-    .. image:: /docs/_static/sendts.jpg
 
-#. You should see a similar response. 
+#. Open your web browser
+#. Navigate to https://udf.f5.com/courses
+#. Select Telemetry Streaming Agility 2020. 
+#. Click on the 'Details' tab within the Telemetry Streaming Agility 2020 UDF block. You should see the following:
 
-    .. image:: /docs/_static/tsrpm.jpg
+    .. image:: ./docs/class1/lab1/start.jpg
 
-**NOTE:** By sending this GET request to 'https://10.1.1.4/mgmt/shared/telemetry/info' with the correct credentials, the response shows details of the TS API available on this BIG-IP. 
+#. Click 'Start' to launch your workstation. 
 
-**NOTE:** This Telemetry Streaming RPM package was pre-installed. For instructions, visit the link here: https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/installation.html 
+#. After your workstation is deployed, click the 'Components' tab:
 
------------------------------------------------- 
+    .. image:: /docs/_static/components.jpg
+
+**Exercise 2 - RDP to Windows Jumphost**
+
+In this exercise, we will connect to the Windows Jumphost.   
+
+#. Under the 'Systems' tab, locate the 'Jumphost' block. 
+
+    .. image:: /docs/_static/systems.jpg
+
+#. Click 'Access' -> 'RDP' and this will download a '.rdp' file to your local machine. 
+
+    .. image:: /docs/_static/access.jpg
+
+#. Click 'Details' in the 'Jumphost' block and copy the administrator password. You will need this in the next step to access your RDP. 
+
+    .. image:: /docs/_static/credentials.jpg
+
+#. Once the RDP has downloaded, open the .rdp file and when prompted, select 'continue'. 
+
+#. When prompted for the Administrator password, paste into the password field the password we copied from the previous step. 
+
+    .. image:: /docs/_static/loginrdp.jpg
+
+#. You should now be in your windows Jumphost. 
+
+    .. image:: /docs/_static/windows.jpg

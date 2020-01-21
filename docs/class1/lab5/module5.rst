@@ -1,36 +1,37 @@
-Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools (Part 2)
+Lab 4 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
 -----------------------------------
 
-In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our consumer, AWS CloudWatch, and our BIG-IP. 
+In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our consumer and our BIG-IP. 
 
 ------------------------------------------------ 
 
-**Exercise 1 - Configure AWS CloudWatch as the Telemetry Consumer**
+**Exercise 1 - Configure Kibana as the Telemetry Consumer**
 
-#. Open Postman. 
+#. Open Postman.
 
 #. Open the Postman collection `Setup Telemetry Streaming`. 
 
-#. Click the `Declare 2 Consumers` request. 
+#. Click the `ELK Consumer` request.
 
-#. Click on the Body tab - notice that this is similar to the previous request with an appended class for AWS CloudWatch configuration details. 
+#. Click on the Body tab. 
 
-    .. image:: /docs/_static/awscw.jpg
+    .. image:: /docs/_static/elkbody.jpg
 
-**HINT:** Here is what is important from this declaration: 
+**HINT** Here is what is important from this declaration: 
 
-   * MY_CW_Consumer sets up a Cloudwatch consumer
+   * The Listener collects event logs from all BIG-IP sources, including LTM, ASM, AFM, APM, and AVR. You can configure all of these by POSTing a single AS3 declaration or you can use TMSH or the GUI to configure individual modules.  
+
+   * The Consumer class is the third party consumer we wish to send our captured data to. 
 
 #. Send the POST request by clicking the blue 'Send' button. Ensure a 'Status: 200 OK' response.  
 
-    .. image:: /docs/_static/awscwresponse.jpg
+    .. image:: /docs/_static/elkresponse.jpg
 
 **NOTE:** By sending this GET request to ``https://10.1.1.9/mgmt/shared/telemetry/declare`` with the correct credentials and current body we've established a connection between our consumer and our BIG-IP. 
 
-**NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/
+**NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
 ------------------------------------------------ 
- 
 
 **Exercise 2 - Generate Traffic on OpenCart**
 
@@ -38,13 +39,13 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 ------------------------------------------------ 
 
-**Exercise 3 - Analyze Telemetry via AWS CloudWatch**
+**Exercise 3 - Analyze Telemetry via Kibana**
 
 
 
 ------------------------------------------------ 
 
-**Exercise 4 - Create a AWS CloudWatch Dashboard**
+**Exercise 4 - Create a Simple Kibana Visualization**
 
 
 

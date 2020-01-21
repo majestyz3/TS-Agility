@@ -1,60 +1,44 @@
-Lab 1 – Join UDF Course and Connect To Workstation
------------------------------------
+Lab 1- Getting Started
+---------------
 
-Welcome to the Telemetry Streaming course! In this course we will:
+Please follow the instructions provided by the instructor to start your
+lab and access your jump host.
 
-Explore F5 Telemetry Streaming, by using a declarative API model to forward, aggregate and analyze BIG-IP telemetry.
+.. NOTE::
+	 All work for this lab will be performed exclusively from the Windows
+	 jumphost. No installation or interaction with your local system is
+	 required.
 
-During this hands-on lab you will learn the following:
-•	The difference between a declarative and imperative API interface. 
-•	How to create and validate a JSON declaration for Telemetry Streaming.
-•	How to use Telemetry Streaming as a part of the F5 Automation Toolchain.
+Lab Topology
+~~~~~~~~~~~~
+
+The following components have been included in your lab environment:
+
+- 1 x F5 BIG-IP VE (v14.1)
+- 1 x F5 BIG-IP VE (v15.0.1)
+- 1 x Elk (Unbuntu 18.04)
+- 1 x Linux LAMP Webserver (Ubuntu 18.04)
+- 1 x Windows Jumphost
+
+Lab Components
+^^^^^^^^^^^^^^
+
+The following table lists VLANS, IP Addresses and Credentials for all
+components:
+
+.. list-table::
+    :widths: 20 40 40
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - **Component**
+      - **VLAN/IP Address(es)**
+      - **Credentials**
+    * - Sample Host
+      - - **Management:** 10.1.1.0/24
+        - **FrontEnd:** 10.1.10.0/24
+        - **BackEnd:** 10.1.20.0/24
+        - **External:** 10.1.20.250
+      - ``admin``/``AgilityIsFun123!``
 
 
-This lab will go through initial setup and add you to the Telemetry Streaming Agility 2020 workstation.  
-
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Follow these steps to complete this lab:
-
-**Exercise 1 - Setting Up Lab Workstation**
-
-
-#. Open your web browser
-#. Navigate to https://udf.f5.com/courses
-#. Select Telemetry Streaming Agility 2020. 
-#. Click on the 'Details' tab within the Telemetry Streaming Agility 2020 UDF block. You should see the following:
-
-    .. image:: /docs/_static/start.jpg
-
-#. Click 'Start' to launch your workstation. 
-
-#. After your workstation is deployed, click the 'Components' tab:
-
-    .. image:: /docs/_static/components.jpg
-
-**Exercise 2 - RDP to Windows Jumphost**
-
-In this exercise, we will connect to the Windows Jumphost.   
-
-#. Under the 'Systems' tab, locate the 'Jumphost' block. 
-
-    .. image:: /docs/_static/systems.jpg
-
-#. Click 'Access' -> 'RDP' and this will download a '.rdp' file to your local machine. 
-
-    .. image:: /docs/_static/access.jpg
-
-#. Click 'Details' in the 'Jumphost' block and copy the administrator password. You will need this in the next step to access your RDP. 
-
-    .. image:: /docs/_static/credentials.jpg
-
-#. Once the RDP has downloaded, open the .rdp file and when prompted, select 'continue'. 
-
-#. When prompted for the Administrator password, paste into the password field the password we copied from the previous step. 
-
-    .. image:: /docs/_static/loginrdp.jpg
-
-#. You should now be in your windows Jumphost. 
-
-    .. image:: /docs/_static/windows.jpg
