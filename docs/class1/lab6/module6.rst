@@ -15,7 +15,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Click on the Body tab - notice that this is similar to the previous request with an appended class for AWS CloudWatch configuration details. 
 
-    .. image:: /docs/_static/awscw.jpg
+    .. image:: ./awscw.jpg
 
 **HINT:** Here is what is important from this declaration: 
 
@@ -23,7 +23,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Send the POST request by clicking the blue 'Send' button. Ensure a 'Status: 200 OK' response.  
 
-    .. image:: /docs/_static/awscwresponse.jpg
+    .. image:: ./awscwresponse.jpg
 
 **NOTE:** By sending this GET request to ``https://10.1.1.9/mgmt/shared/telemetry/declare`` with the correct credentials and current body we've established a connection between our consumer and our BIG-IP. 
 

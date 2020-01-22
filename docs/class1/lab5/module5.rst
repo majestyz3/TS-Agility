@@ -1,4 +1,4 @@
-Lab 4 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
+Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
 -----------------------------------
 
 In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our consumer and our BIG-IP. 
@@ -15,7 +15,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Click on the Body tab. 
 
-    .. image:: /docs/_static/elkbody.jpg
+    .. image:: ./elkbody.jpg
 
 **HINT** Here is what is important from this declaration: 
 
@@ -25,7 +25,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Send the POST request by clicking the blue 'Send' button. Ensure a 'Status: 200 OK' response.  
 
-    .. image:: /docs/_static/elkresponse.jpg
+    .. image:: ./elkresponse.jpg
 
 **NOTE:** By sending this GET request to ``https://10.1.1.9/mgmt/shared/telemetry/declare`` with the correct credentials and current body we've established a connection between our consumer and our BIG-IP. 
 

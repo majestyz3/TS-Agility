@@ -6,7 +6,7 @@ Inh this Exercise you  will:
 - Connect to Windows host system via RDP
 - Login into the RDP 
 
-Expected time to complete: **7 minutes **
+Expected time to complete: ** 7 minutes **
 
 .. toctree::
    :maxdepth: 1
