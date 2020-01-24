@@ -47,15 +47,22 @@ Task – Edit the AWS Cloudwatch TS Declaration
 Task – View the logs in AWS Cloudwatch 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 #. Navigate back to the UDF class view 
+
 #. Log back into AWS Cloudwatch 
+
 #. Navigate to the log stream you created. 
+
 #. Notice that logs have been populated in the log stream. 
     .. image:: ./cw6.jpg
+
 #. Expand the log. Scroll down and you will find data on the virtual servers, pools, and various other objects.  
 #. On the left pane, select the subcategory Insights 
     .. image:: ./cw8.jpg
+
 #. Click into the Select log group(s) search bar and select your group. Then click the Run query button. 
     .. image:: ./cw9.jpg
+
+    
 #. Explore AWS Cloudwatch 
  
  
