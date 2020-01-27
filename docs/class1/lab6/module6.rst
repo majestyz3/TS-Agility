@@ -64,5 +64,3 @@ Task – View the logs in AWS Cloudwatch
 
     
 #. Explore AWS Cloudwatch 
- 
- 
