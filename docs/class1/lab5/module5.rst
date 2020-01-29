@@ -46,7 +46,7 @@ In this exercise, we will launch a traffic generation script targeting the newly
 
 #. Run the traffic script by entering **./baseline_menu.sh** and hit enter 
 
-#.From the menu, choose 2) Alternate and let it run  
+#. From the menu, choose 2) Alternate and let it run  
 
 
 ------------------------------------------------ 
