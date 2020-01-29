@@ -36,6 +36,18 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 **Exercise 2 - Generate Traffic on OpenCart**
 
 
+In this exercise, we will launch a traffic generation script targeting the newly created app service. 
+
+#. From the UDF page, under the 'Systems' column, find the host named “Traffic Gen” and select SSH from the Access drop-down 
+
+    .. image:: ./trafgen.jpg
+
+#. Accept the SSH warning and type su for sudo user access, the password is “toor”  
+
+#. Run the traffic script by entering **./baseline_menu.sh** and hit enter 
+
+#.From the menu, choose 2) Alternate and let it run  
+
 
 ------------------------------------------------ 
 
