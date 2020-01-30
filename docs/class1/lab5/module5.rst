@@ -1,7 +1,7 @@
 Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
 -----------------------------------
 
-In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our consumer and our BIG-IP. 
+In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our Kibana consumer and our BIG-IP. 
 
 ------------------------------------------------ 
 

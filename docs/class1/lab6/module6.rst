@@ -1,8 +1,12 @@
 Lab 6 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools (Part 2)
 ------------------------------------------------------------  
-  
-Task – Login to AWS Cloudwatch 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our AWS consumer and our BIG-IP. 
+
+
+------------------------------------------------ 
+
+**Exercise 1 - Login to AWS Cloudwatch **
   
 #. Navigate to UDF class view 
 
@@ -24,10 +28,9 @@ Task – Login to AWS Cloudwatch
 
     .. image:: ./cw4.png
  
+------------------------------------------------
  
- 
-Task – Edit the AWS Cloudwatch TS Declaration 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+**Exercise 2 - Edit the AWS Cloudwatch TS Declaration**
   
 #. Navigate to UDF class view 
 
@@ -47,10 +50,9 @@ Task – Edit the AWS Cloudwatch TS Declaration
  
 #. Click the blue Send to POST the Telemetry Streaming declaration. Ensure a 200 OK response. 
  
- 
+------------------------------------------------ 
 
-Task – Generate Traffic on OpenCart
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+** Exercise 3 - Generate Traffic on OpenCart**
 
 #. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
 
@@ -63,10 +65,10 @@ Task – Generate Traffic on OpenCart
 #. From the menu, choose 2) Alternate and let it run while you continue with the labs 
 
 
+------------------------------------------------ 
  
- 
-Task – View the logs in AWS Cloudwatch 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+** Exercise 4 – View the logs in AWS Cloudwatch**
+
 #. Navigate back to the UDF class view 
 
 #. Log back into AWS Cloudwatch 
