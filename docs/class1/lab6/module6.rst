@@ -42,6 +42,21 @@ Task – Edit the AWS Cloudwatch TS Declaration
 #. Click the blue Send to POST the Telemetry Streaming declaration. Ensure a 200 OK response. 
  
  
+
+Task – Generate Traffic on OpenCart
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+#. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
+
+#. Accept the SSH warning and type su for sudo user access, the password is toor  
+
+#. Run pwd and make sure you are /home/ec2-user
+
+#. Run ./baseline_menu.sh
+
+#. From the menu, choose 2) Alternate and let it run while you continue with the labs 
+
+
  
  
 Task – View the logs in AWS Cloudwatch 
