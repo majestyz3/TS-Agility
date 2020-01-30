@@ -49,9 +49,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Accept the SSH warning and type su for sudo user access, the password is “toor”  
 
-#. Run the traffic script by entering ./baseline_menu.sh and hit enter 
 
-#.From the menu, choose 2) Alternate and let it run while you continue with the labs 
 
 ------------------------------------------------ 
 
