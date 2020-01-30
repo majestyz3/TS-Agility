@@ -3,10 +3,9 @@ Lab 6 – Configuring Telemetry Streaming With Third-Party Log Management & Anal
 
 In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our AWS consumer and our BIG-IP. 
 
-
 ------------------------------------------------ 
 
-**Exercise 1 - Login to AWS Cloudwatch **
+**Exercise 1 - Login to AWS Cloudwatch**
   
 #. Navigate to UDF class view 
 
@@ -52,7 +51,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
  
 ------------------------------------------------ 
 
-** Exercise 3 - Generate Traffic on OpenCart**
+**Exercise 3 - Generate Traffic on OpenCart**
 
 #. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
 
@@ -67,7 +66,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 ------------------------------------------------ 
  
-** Exercise 4 – View the logs in AWS Cloudwatch**
+**Exercise 4 – View the logs in AWS Cloudwatch**
 
 #. Navigate back to the UDF class view 
 
