@@ -34,7 +34,6 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Click the `Elastic create db` request. Send the PUT request by clicking the blue 'Send' button.
 
-
 #. Click the `Elastic create mapping` request. Send the PUT request by clicking the blue 'Send' button.
 
 **NOTE:** If you receive a 400 Bad Request response that is expected behavior.
@@ -44,8 +43,15 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **Exercise 2 - Generate Traffic on OpenCart**
 
-#. Open a new tab in Chrome and click the OpenCart bookmark. Click around the website and browse a few different products.
+.. TODO:: In this task we will launch a traffic generation script targeting the newly created app service. 
+  
+#. From the UDF page, find the host named “Traffic Gen” and select SSH from the Access drop-down 
 
+#. Accept the SSH warning and type su for sudo user access, the password is “toor”  
+
+#. Run the traffic script by entering ./baseline_menu.sh and hit enter 
+
+#.From the menu, choose 2) Alternate and let it run while you continue with the labs 
 
 ------------------------------------------------ 
 
