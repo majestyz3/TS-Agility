@@ -45,11 +45,11 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 .. TODO:: In this task we will launch a traffic generation script targeting the newly created app service. 
   
-#. From the UDF page, find the host named “Traffic Gen” and select SSH from the Access drop-down 
+#. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
 
-#. Accept the SSH warning and type su for sudo user access, the password is “toor”  
+#. Accept the SSH warning and type su for sudo user access, the password is toor  
 
-
+#. From the menu, choose 2) Alternate and let it run while you continue with the labs 
 
 ------------------------------------------------ 
 
