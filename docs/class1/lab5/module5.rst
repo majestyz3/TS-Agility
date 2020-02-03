@@ -33,7 +33,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 .. TODO:: Now we will build the Kibana database and mapping. 
 
-#. Click the `Elastic create db` request. Send the PUT request by clicking the blue 'Send' button.
+#. Click the `Elastic Create Database` request. Send the PUT request by clicking the blue 'Send' button. A 400 `response_already_exists_exception` response is ok.
 
 #. Click the `Elastic create mapping` request. Send the PUT request by clicking the blue 'Send' button.
 
@@ -71,6 +71,22 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **Exercise 4 - Create a Simple Kibana Visualization**
 
+#. In Discover type ``data.http_code \: 40*``. This will show you all HTTP resonses starting with 40.
 
+    .. image:: ./kib_1.png
+
+#. Click the Visualize tab on the left and click Create a Visualization
+
+#. You can explore various types of graphs. For this exercise we will select the Line graph
+
+#. Under Select Index select f5\*
+
+#. On the left, under Buckets select X-Axis. Select Date Histogram from the Aggregation dropdown, data.event_timestamp from the Field dropdown, and Auto from the Interval dropdown.
+
+    .. image:: ./kib_2.png
+
+#. Now select the Apply Changes play button next to Panel Settings. Press the blue Refresh button on the top right. View your visualization.
+
+    .. image:: ./kib_3.png
 
 ------------------------------------------------ 
