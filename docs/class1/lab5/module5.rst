@@ -31,8 +31,6 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
-.. TODO:: Now we will build the Kibana database and mapping. 
-
 #. Click the `Elastic Create Database` request. Send the PUT request by clicking the blue 'Send' button. A 400 `response_already_exists_exception` response is ok.
 
 #. Click the `Elastic create mapping` request. Send the PUT request by clicking the blue 'Send' button.
