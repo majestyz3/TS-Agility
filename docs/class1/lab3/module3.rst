@@ -52,7 +52,7 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 
     .. image:: ./tsrpm.jpg
 
-**NOTE:** By sending this GET request to 'https://10.1.1.4/mgmt/shared/telemetry/info' with the correct credentials, the response shows details of the TS API available on this BIG-IP. 
+**NOTE:** By sending this GET request to 'https://10.1.1.9/mgmt/shared/telemetry/info' with the correct credentials, the response shows details of the TS API available on this BIG-IP. 
 
 **NOTE:** This Telemetry Streaming RPM package was pre-installed. For instructions, visit the link here: https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/installation.html 
 

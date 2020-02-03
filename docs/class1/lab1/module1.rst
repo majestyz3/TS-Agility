@@ -35,10 +35,9 @@ components:
       - **VLAN/IP Address(es)**
       - **Credentials**
     * - Sample Host
-      - - **Management:** 10.1.1.0/24
+      - - **Management:** 10.1.1.9
         - **FrontEnd:** 10.1.10.0/24
         - **BackEnd:** 10.1.20.0/24
-        - **External:** 10.1.20.250
       - ``admin``/``AgilityIsFun123!``
 
 
