@@ -9,7 +9,7 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 **Exercise 1 - Explore BIG-IP**
 
 
-#. Open the web browser and navigate to the BIG-IP GUI (https://10.1.1.4) or by clicking the bookmark. 
+#. Open the web browser and navigate to the BIG-IP GUI (https://10.1.1.9) or by clicking the bookmark. 
 
     .. image:: ./bigipbm.jpg
 
@@ -36,7 +36,9 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 
 The focus for this exercise is to deploy an application with the appropriate Telemetry Streaming configuration objects.
 
-#. Open Postman 
+#. Open the Postman application
+
+    .. image:: ./mod4_1.png
 
 #. Open the the Postman collection `AS3` 
 
@@ -73,7 +75,7 @@ The focus for this exercise is to deploy an application with the appropriate Tel
 
 #. Open Chrome 
 
-#. Click the BIG-IP bookmark or navigate to 'https://10.1.1.4'
+#. Click the BIG-IP bookmark or navigate to 'https://10.1.1.9'
 
 #. Login to the BIG-IP with the following credentials:
 
