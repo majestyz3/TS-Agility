@@ -92,10 +92,10 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. image:: ./cw9.png
 
-#. You can manipulate the search field.
+#. You can manipulate the search field with this example.
 
-.. code-block:: sql
-   :linenos:
-   SELECT * FROM mytable
+    .. code-block:: sql
+        :linenos:
+            SELECT * FROM mytable
 
 #. Now click Run Query 
