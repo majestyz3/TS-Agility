@@ -92,11 +92,19 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. image:: ./cw9.png
 
-#. You can manipulate the search field with this example.
+#. You can manipulate the search field with our examples.
 
     .. code-block:: sql
     
         fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
             | stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
+
+
+    .. code-block:: sql
+
+        fields @timestamp, @message, system.hostname
+            | parse @message "clientSideTraffic.bitsIn\":*," as clientsin
+            | parse @message "clientSideTraffic.bitsOut\":*," as clientsout
+
 
 #. Now click Run Query 
