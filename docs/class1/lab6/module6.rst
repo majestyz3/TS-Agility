@@ -94,8 +94,8 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. You can manipulate the search field.
 
-    .. code-block:: ruby
-            fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
-            |   stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
+.. code-block:: sql
+   :linenos:
+   SELECT * FROM mytable
 
 #. Now click Run Query 
