@@ -80,6 +80,10 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Expand the log. Scroll down and you will find data on the virtual servers, pools, and various other objects.  
 
+------------------------------------------------ 
+ 
+**Exercise 4 – View the logs in AWS Cloudwatch**
+
 #. On the left pane, select the subcategory Insights 
 
     .. image:: ./cw8.png
@@ -88,5 +92,9 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. image:: ./cw9.png
 
-    
-#. Explore AWS Cloudwatch 
+#. You can manipulate the search field.
+    .. code-block:: ruby
+        :linenos:
+        fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
+        |   stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
+
