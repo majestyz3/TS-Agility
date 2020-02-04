@@ -107,4 +107,4 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
             | parse @message "clientSideTraffic.bitsOut\":*," as clientsout
 
 
-#. Now click Run Query 
+#. Paste the code blocks in and click Run Query 
