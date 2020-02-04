@@ -93,8 +93,8 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
     .. image:: ./cw9.png
 
 #. You can manipulate the search field.
+
     .. code-block:: ruby
-        :linenos:
             fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
             |   stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
 
