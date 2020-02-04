@@ -95,8 +95,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 #. You can manipulate the search field with this example.
 
     .. code-block:: sql
-        :linenos:
-            
+    
         SELECT * FROM mytable
 
 #. Now click Run Query 
