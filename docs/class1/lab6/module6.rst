@@ -96,6 +96,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. code-block:: sql
     
-        SELECT * FROM mytable
+        fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
+            | stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
 
 #. Now click Run Query 
