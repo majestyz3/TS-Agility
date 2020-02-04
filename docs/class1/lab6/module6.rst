@@ -96,6 +96,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. code-block:: sql
         :linenos:
-            SELECT * FROM mytable
+            
+        SELECT * FROM mytable
 
 #. Now click Run Query 
