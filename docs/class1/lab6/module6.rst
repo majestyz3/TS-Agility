@@ -82,7 +82,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 ------------------------------------------------ 
  
-**Exercise 4 – View the logs in AWS Cloudwatch**
+**Exercise 5 – Manipulate the Search with Example**
 
 #. On the left pane, select the subcategory Insights 
 
@@ -98,3 +98,4 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
         fields @timestamp, @message, system.hostname, system.cpu, system.tmmCpu
         |   stats avg(system.cpu) as SystemCpu, avg(system.tmmCpu) as TmmCpu by bin(5m), system.hostname
 
+#. Now click Run Query 
