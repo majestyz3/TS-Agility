@@ -1,8 +1,7 @@
 Lab 3 – Getting Familiar With Postman 
 -----------------------------------
 
-In this lab we will setup Postman, an API Development tool that will allow us to structure our API calls and interact with our BIG-IP.
-We will use Postman to query our BIG-IP's status and details of the RPM files needed to use and interact with the AS3 RESTful API.
+In this lab section we are introducing Postman, an API Development Environment that helps us structure API calls. We will send GET requests to obtain the RPM package that shows details of the API.
 
 ------------------------------------------------ 
 
@@ -23,7 +22,7 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 
 #. Click the `Get AS3 RPM Package` request 
 
-#. Examine the request. Note that we are sending a 'GET' request with an empty body. Send the GET request by clicking the blue 'Send' button.
+#. Examine the request. Note that we are sending a 'GET' request with an empty body. Send the GET request by clicking the blue 'Send' button. Also note that we have built in auth for you, using Basic username and password authentication. 
 
     .. image:: ./send1.jpg
 
@@ -54,6 +53,6 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 
 **NOTE:** By sending this GET request to 'https://10.1.1.9/mgmt/shared/telemetry/info' with the correct credentials, the response shows details of the TS API available on this BIG-IP. 
 
-**NOTE:** This Telemetry Streaming RPM package was pre-installed. For instructions, visit the link here: https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/installation.html 
+**NOTE:** This Telemetry Streaming RPM package was pre-installed. For instructions, visit the link here: https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/userguide/installing-ts.html
 
 ------------------------------------------------ 

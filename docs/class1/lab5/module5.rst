@@ -1,4 +1,4 @@
-Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
+Lab 5 – Configuring Telemetry Streaming With Kibana
 -----------------------------------
 
 In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our Kibana consumer and our BIG-IP. 
@@ -9,7 +9,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Open Postman.
 
-#. Open the Postman collection `Telemetry with ElasticSearch and Kibana`. 
+#. Open the collection `Telemetry with ElasticSearch and Kibana`. 
 
 #. Click the `ELK Consumer` request.
 
@@ -31,20 +31,18 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
-#. Click the `Elastic Create Database` request. Send the PUT request by clicking the blue 'Send' button. A 400 `response_already_exists_exception` response is ok.
-
-#. Click the `Elastic create mapping` request. Send the PUT request by clicking the blue 'Send' button.
+#. Click the `Create Elastic database` request. Send the PUT request by clicking the blue 'Send' button. Repeat this for `Create Elastic database`, `increase index mapping limit`, and `Create Elastic index mapping`. Please ignore errors from the response.
 
 
 ------------------------------------------------ 
 
 **Exercise 2 - Generate Traffic on OpenCart**
   
-#. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
+#. From the UDF page, find the host named Traffic Gen and select Web Shell from the dropdown 
 
-#. Accept the SSH warning and type su for sudo user access, the password is toor  
+#. Type su for sudo user access. If prompted, the password is toor.  
 
-#. Run pwd and make sure you are /home/ec2-user
+#. Change director to /home/ec2-user
 
 #. Run ./baseline_menu.sh
 
@@ -55,7 +53,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **Exercise 3 - Analyze Telemetry via Kibana**
 
-#. Open a new tab in Chrome and click the Kibana bookmark.
+#. Back in the Windows RDP session, open a new tab in Chrome and click the Kibana bookmark.
 
 #. Select the Discover tab on the top left.
 
@@ -69,7 +67,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **Exercise 4 - Create a Simple Kibana Visualization**
 
-#. In Discover type ``data.http_code \: 40*``. This will show you all HTTP resonses starting with 40.
+#. In Discover, type ``data.http_code \: 40*``. This will show you all HTTP resonses starting with 40. Click `Update` to apply.
 
     .. image:: ./kib_1.png
 

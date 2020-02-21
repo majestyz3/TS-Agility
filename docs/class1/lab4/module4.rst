@@ -1,15 +1,14 @@
 Lab 4 – Configuring and Deploying A Simple HTTP Application via Application Services v3 (AS3)
 -----------------------------------
 
-In this lab we will setup Postman, an API Development tool that will allow us to structure our API calls and interact with our BIG-IP.
-We will use Postman to query our BIG-IP's status and details of the RPM files needed to use and interact with the AS3 RESTful API.
+In this lab we will use the AS3 API to programmatically deploy an application to th BIG-IP with a single REST call.
 
 ------------------------------------------------ 
 
 **Exercise 1 - Explore BIG-IP**
 
 
-#. Open the web browser and navigate to the BIG-IP GUI (https://10.1.1.9) or by clicking the bookmark. 
+#. Open Chrome and navigate to the BIG-IP GUI (https://10.1.1.9) or by clicking the bookmark. 
 
     .. image:: ./bigipbm.jpg
 
@@ -36,7 +35,7 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
 
 The focus for this exercise is to deploy an application with the appropriate Telemetry Streaming configuration objects.
 
-#. Open the Postman application
+#. Minimize Chrome and open the Postman application.
 
     .. image:: ./mod4_1.png
 
@@ -100,7 +99,7 @@ The focus for this exercise is to deploy an application with the appropriate Tel
 **Exercise 4 - Verify Web Application**
 
 
-#. In your web browser, click on the 'OpenCart' bookmark. 
+#. In Chrome, click on the 'OpenCart' bookmark. 
 
     .. image:: ./ocbookmark.jpg
 

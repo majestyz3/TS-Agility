@@ -6,9 +6,9 @@ Welcome to the Telemetry Streaming course! In this course we will:
 Explore F5 Telemetry Streaming, by using a declarative API model to forward, aggregate and analyze BIG-IP telemetry.
 
 During this hands-on lab you will learn the following:
-•	The difference between a declarative and imperative API interface. 
-•	How to create and validate a JSON declaration for Telemetry Streaming.
-•	How to use Telemetry Streaming as a part of the F5 Automation Toolchain.
+•	How to use F5's declarative API to deploy applications via AS3. 
+•	How to use F5's declarative API to collect application statistics via Telemetry Streaming.
+•	How to use two data consumers to visualize statistics from Telemetry Streaming.
 
 
 This lab will go through initial setup and add you to the Telemetry Streaming Agility 2020 workstation.  
@@ -37,7 +37,7 @@ Follow these steps to complete this lab:
 
 In this exercise, we will connect to the Windows Jumphost.   
 
-#. Under the 'Systems' tab, locate the 'Jumphost' block. 
+#. Under the 'Systems' collumn, locate the 'Jumphost' block. 
 
     .. image:: ./systems.jpg
 
