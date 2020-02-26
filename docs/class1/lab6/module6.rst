@@ -50,23 +50,8 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 #. Click the blue Send to POST the Telemetry Streaming declaration. Ensure a 200 OK response. 
  
 ------------------------------------------------ 
-
-**Exercise 3 - Generate Traffic on OpenCart**
-
-#. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
-
-#. Accept the SSH warning and type su for sudo user access, the password is toor  
-
-#. Run pwd and make sure you are /home/ec2-user
-
-#. Run ./baseline_menu.sh
-
-#. From the menu, choose 2) Alternate and let it run while you continue with the labs 
-
-
------------------------------------------------- 
  
-**Exercise 4 – View the logs in AWS Cloudwatch**
+**Exercise 3 – View the logs in AWS Cloudwatch**
 
 #. Navigate back to the UDF class view 
 
