@@ -1,13 +1,11 @@
 Lab 5 – Configuring Telemetry Streaming With Third-Party Log Management & Analysis Tools
 -----------------------------------
 
-In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our Kibana consumer and our BIG-IP. 
+In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our Elastic Stack consumer and our BIG-IP. 
 
 ------------------------------------------------ 
 
 **Exercise 1 - Configure Kibana as the Telemetry Consumer**
-
-#. Open Postman.
 
 #. Open the Postman collection `Telemetry with ElasticSearch and Kibana`. 
 
@@ -23,13 +21,11 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **HINT** Here is what is important from this declaration: 
 
-   * The Listener collects event logs from all BIG-IP sources, including LTM, ASM, AFM, APM, and AVR. You can configure all of these by POSTing a single AS3 declaration or you can use TMSH or the GUI to configure individual modules.  
+   * The Listener collects event logs from several BIG-IP sources including LTM, ASM, AFM, APM, and AVR. You can configure all of these by posting a single declaration. 
 
-   * The Consumer class is the third party consumer we wish to send our captured data to. 
+   * The Consumer class is the third party consumer we wish to send our telemetry data to. 
 
 **NOTE:** By sending this GET request to ``https://10.1.1.9/mgmt/shared/telemetry/declare`` with the correct credentials and current body we've established a connection between our consumer and our BIG-IP. 
-
-**NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
 .. TODO:: Now we will build the Kibana database and mapping. 
 
@@ -44,11 +40,11 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
   
 #. From the UDF page, find the host named Traffic Gen and select SSH from the Access drop-down 
 
-#. Accept the SSH warning and type su for sudo user access, the password is toor  
-
-#. Run pwd and make sure you are /home/ec2-user
+#. Accept the SSH warning and you should be authenticated 
 
 #. Run ./baseline_menu.sh
+
+#. You should have root access but if the script fails, type "su" and the password "toor" and retry
 
 #. From the menu, choose 2) Alternate and let it run while you continue with the labs 
 
