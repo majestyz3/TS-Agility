@@ -1,8 +1,7 @@
 Lab 4 – Configuring and Deploying A Simple HTTP Application via Application Services v3 (AS3)
 -----------------------------------
 
-In this lab we will setup Postman, an API Development tool that will allow us to structure our API calls and interact with our BIG-IP.
-We will use Postman to query our BIG-IP's status and details of the RPM files needed to use and interact with the AS3 RESTful API.
+In this lab we will quickly setup an application using Postman and the AS3 declarative API.
 
 ------------------------------------------------ 
 
@@ -22,7 +21,7 @@ We will use Postman to query our BIG-IP's status and details of the RPM files ne
    +---------------+------------------------------------+
 
 
-#. Once you are logged in, navigate to 'Local Traffic' -> 'Virtual Servers' -> 'Virtual Servers List'. 
+#. Once you are logged in, navigate to 'Local Traffic' -> 'Virtual Servers' -> 'Virtual Server List'. 
 
     .. image:: ./vslist.jpg
 
@@ -84,7 +83,7 @@ The focus for this exercise is to deploy an application with the appropriate Tel
    +---------------+------------------------------------+
 
 
-#. Once you are logged in, navigate to 'Local Traffic' -> 'Virtual Servers' -> 'Virtual Servers List'. 
+#. Once you are logged in, navigate to 'Local Traffic' -> 'Virtual Servers' -> 'Virtual Server List'. 
 
     .. image:: ./vslist.jpg
 
@@ -102,7 +101,7 @@ The focus for this exercise is to deploy an application with the appropriate Tel
 
     .. image:: ./ocbookmark.jpg
 
-#. Verify the application is working by clicking a few tabs and viewng products. 
+#. Verify the application is working by clicking a few tabs and viewing products. 
 
     .. image:: ./opencart.jpg
 
