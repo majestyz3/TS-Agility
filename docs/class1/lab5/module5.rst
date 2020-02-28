@@ -81,7 +81,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
     .. image:: ./kib_2.png
 
-#. Now select the Apply Changes play button next to Panel Settings. Press the blue Refresh button on the top right. View your visualization.
+#. Now select the Apply Changes play button next to Panel Settings. Press the blue Refresh button on the top right. View your visualization. These options are circled in the screenshot below.
 
     .. image:: ./kib_3.png
 
