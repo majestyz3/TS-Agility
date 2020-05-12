@@ -31,7 +31,6 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
-#. Click the `Create Elastic database` request. Send the PUT request by clicking the blue 'Send' button. Repeat this for `Create Elastic database`, `increase index mapping limit`, and `Create Elastic index mapping`. Please ignore errors from the response.
 
 
 ------------------------------------------------ 
@@ -67,7 +66,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **Exercise 4 - Create a Simple Kibana Visualization**
 
-#. In Discover, type ``data.http_code \: 40*``. This will show you all HTTP resonses starting with 40. Click `Update` to apply.
+#. In Discover, type ``data.http_code \: 40*``. This will show you all HTTP resonses starting with 40. Press the blue Refresh to apply.
 
     .. image:: ./kib_1.png
 
