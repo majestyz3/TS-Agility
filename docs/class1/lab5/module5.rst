@@ -29,6 +29,8 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 **NOTE:** By sending this GET request to ``https://10.1.1.9/mgmt/shared/telemetry/declare`` with the correct credentials and current body we've established a connection between our consumer and our BIG-IP. 
 
+**NOTE:** Additionally, you should see a Read Only collection in Postman.  These API calls are necessary to configure the Elastic database and provide a mapping of indexes between the BigIP and Elastic.  You do not need to send these commands as the ELK environment is already pre-configured.
+
 **NOTE:** To learn more about AS3, visit https://clouddocs.f5.com/products/extensions/f5-telemetry-streaming/latest/ 
 
 
