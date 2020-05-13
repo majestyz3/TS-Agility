@@ -6,8 +6,11 @@ Welcome to the Telemetry Streaming course! In this course we will:
 Explore F5 Telemetry Streaming, by using a declarative API model to forward, aggregate and analyze BIG-IP telemetry.
 
 During this hands-on lab you will learn the following:
+
 •	How to use F5's declarative API to deploy applications via AS3. 
+
 •	How to use F5's declarative API to collect application statistics via Telemetry Streaming.
+
 •	How to use two data consumers to visualize statistics from Telemetry Streaming.
 
 
