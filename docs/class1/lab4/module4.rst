@@ -1,4 +1,4 @@
-Lab 4 – Configuring and Deploying A Simple HTTP Application via Application Services v3 (AS3)
+Lab 4 – Deploy a Web Application
 -----------------------------------
 
 In this lab we will use the AS3 API to programmatically deploy an application to th BIG-IP with a single REST call.

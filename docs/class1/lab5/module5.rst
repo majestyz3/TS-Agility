@@ -1,4 +1,4 @@
-Lab 5 – Configuring Telemetry Streaming With Kibana
+Lab 5 – Telemetry Streaming With Kibana
 -----------------------------------
 
 In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our Kibana consumer and our BIG-IP. 

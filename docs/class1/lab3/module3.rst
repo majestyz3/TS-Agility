@@ -1,4 +1,4 @@
-Lab 3 – Getting Familiar With Postman 
+Lab 3 – Review API Calls
 -----------------------------------
 
 In this lab section we are introducing Postman, an API Development Environment that helps us structure API calls. We will send GET requests to obtain the RPM package that shows details of the API.
@@ -18,7 +18,7 @@ In this lab section we are introducing Postman, an API Development Environment t
 
 #. Open the the Postman collection `RPMs`
 
-    .. image:: ./as3post.jpg
+    .. image:: ./as3post2.jpg
 
 #. Click the `Get AS3 RPM Package` request 
 
