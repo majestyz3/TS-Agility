@@ -10,7 +10,6 @@ In this lab we will use the AS3 API to programmatically deploy an application to
 
 #. Open Chrome and navigate to the BIG-IP GUI (https://10.1.1.9) or by clicking the bookmark. 
 
-    .. image:: ./bigipbm.jpg
 
 #. Login to the BIG-IP with the following credentials:
 
