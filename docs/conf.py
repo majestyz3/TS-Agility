@@ -140,7 +140,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'F5 Programmability Training'
+project = u'Agility 2020 - A&O ToolchainService Analytics and Metricswith Telemetry Streaming'
 copyright = u'F5 Networks, Inc.'
 author = u'https://f5.com/supernetops'
 
