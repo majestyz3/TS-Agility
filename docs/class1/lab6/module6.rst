@@ -1,4 +1,4 @@
-Lab 6 – Telemetry Streaming With AWS Cloudwatch
+Telemetry Streaming With AWS Cloudwatch
 ------------------------------------------------------------  
 
 In this lab we will configure our Telemetry Streaming JSON declaration to establish a connection between our AWS consumer and our BIG-IP. 

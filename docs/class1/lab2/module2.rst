@@ -1,4 +1,4 @@
-Lab 2 – Join UDF Course
+Join UDF Course
 -----------------------------------
 
 Welcome to the Telemetry Streaming course! In this course we will:

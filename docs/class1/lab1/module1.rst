@@ -1,4 +1,4 @@
-Lab 1- Getting Started
+Getting Started
 ---------------
 
 Please follow the instructions provided by the instructor to start your
