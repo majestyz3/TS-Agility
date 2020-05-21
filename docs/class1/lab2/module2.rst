@@ -25,32 +25,36 @@ Follow these steps to complete this lab:
 
 #. Open your web browser
 #. Navigate to https://udf.f5.com/courses
-#. Select Telemetry Streaming Agility 2020. 
-#. Click on the 'Details' tab within the Telemetry Streaming Agility 2020 UDF block. You should see the following:
+#. login using credentials given in email. 
+#. find Telemetry Streaming Agility 2020 and press details in the bottom right corner. 
+#. Click on the Schedule tab, and press launch under the course listed below. 
 
-    .. image:: ./start.jpg
+    .. image:: ./schedule.png
 
-#. Click 'Start' to launch your workstation. 
+#. Click continue to enter into the class: 
+   
+    .. image:: ./welcome.jpg
 
-#. After your workstation is deployed, click the 'Components' tab:
 
-    .. image:: ./components.jpg
+#. You are now in the class. look around and familiarize yourself with the various comoments of this dashboard. 
+#. The deployments tab is in the top right, which contains all of the components deployed for this lab. 
+
+    .. image:: ./class.png
 
 **Exercise 2 - RDP to Windows Jumphost**
 
 In this exercise, we will connect to the Windows Jumphost.   
 
-#. Under the 'Systems' collumn, locate the 'Jumphost' block. 
-
-    .. image:: ./systems.jpg
-
+#. Go into the 'deployment' tab, and locate the 'Jumphost' block. 
 #. Click 'Access' -> 'RDP' and this will download a '.rdp' file to your local machine. 
 
-    .. image:: ./access.jpg
+
+    .. image:: ./system1.png
+
 
 #. Click 'Details' in the 'Jumphost' block and copy the administrator password. You will need this in the next step to access your RDP. 
 
-    .. image:: ./credentials.jpg
+    .. image:: ./credentials.png
 
 #. Once the RDP has downloaded, open the .rdp file and when prompted, select 'continue'. 
 

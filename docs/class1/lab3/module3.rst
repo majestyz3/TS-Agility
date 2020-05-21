@@ -18,7 +18,7 @@ In this lab section we are introducing Postman, an API Development Environment t
 
 #. Open the the Postman collection `RPMs`
 
-    .. image:: ./as3post2.jpg
+    .. image:: ./postman1.jpg
 
 #. Click the `Get AS3 RPM Package` request 
 
