@@ -16,7 +16,7 @@ In this lab section we are introducing Postman, an API Development Environment t
   
 #. Open Postman 
 
-#. Open the the Postman collection `RPMs`
+#. Open the the Postman collection `Verify Installation`
 
     .. image:: ./postman1.jpg
 
@@ -39,8 +39,6 @@ In this lab section we are introducing Postman, an API Development Environment t
 
 **Exercise 3 - Check Telemetry Streaming RPM Availability**
   
-#. Open the the Postman collection `RPMs`
-
 #. Click the `Get TS RPM Package` request 
 
 #. Examine the request. Note that we are sending a 'GET' request with an empty body. Send the GET request by clicking the blue 'Send' button. 

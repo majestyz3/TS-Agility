@@ -37,7 +37,7 @@ In this lab we will configure our Telemetry Streaming JSON declaration to establ
 
 #. Launch Postman 
 
-#. Open the Collection titled Telemetry with AWS Cloudwatch. Open the AWS Cloudwatch request. Open the Body tab of the request 
+#. Open the Collection titled 'Create AWS Cloudwatch Consumer'. Open the AWS Cloudwatch request. Open the Body tab of the request 
 
     .. image:: ./cw5.png
 
